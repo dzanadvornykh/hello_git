@@ -11,6 +11,10 @@ def hi():
     print('dimon')
 
 
+def my_func():
+    print('kek')
+
+
 def prikol(func: Callable) -> Callable:
     print('hi')
     def inner(*args):
