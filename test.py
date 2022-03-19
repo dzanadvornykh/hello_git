@@ -7,6 +7,10 @@ def hello():
     print('world')
 
 
+def hi():
+    print('dimon')
+
+
 def prikol(func: Callable) -> Callable:
     print('hi')
     def inner(*args):
