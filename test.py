@@ -15,6 +15,10 @@ def my_func():
     print('kek')
 
 
+def bobo():
+    print('my bobo')
+
+
 def prikol(func: Callable) -> Callable:
     print('hi')
     def inner(*args):
