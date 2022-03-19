@@ -9,3 +9,5 @@ class AlsoClass(MyClass):
 class TheClass(AlsoClass):
     pass
 
+class Tree():
+    pass
