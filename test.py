@@ -17,5 +17,9 @@ def foo(x: int) -> int:
     return x * 2
 
 
+def bar(y: int) -> int:
+    return y * y
+
+
 print(time.time())
 print()
