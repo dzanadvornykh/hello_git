@@ -1,3 +1,4 @@
+from math import factorial
 import time
 from typing import Callable
 
@@ -19,6 +20,10 @@ def foo(x: int) -> int:
 
 def bar(y: int) -> int:
     return y * y
+
+
+def baz(z: int) -> int:
+    return factorial(z)
 
 
 print(time.time())
