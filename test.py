@@ -1,3 +1,4 @@
+from math import factorial
 import time
 from typing import Callable
 
@@ -11,6 +12,18 @@ def prikol(func: Callable) -> None:
     def inner(*args):
         func(*args)
     print('by')
+
+
+def foo(x: int) -> int:
+    return x * 2
+
+
+def bar(y: int) -> int:
+    return y * y
+
+
+def baz(z: int) -> int:
+    return factorial(z)
 
 
 print(time.time())
