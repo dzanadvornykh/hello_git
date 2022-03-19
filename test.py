@@ -13,5 +13,9 @@ def prikol(func: Callable) -> None:
     print('by')
 
 
+def foo(x: int) -> int:
+    return x * 2
+
+
 print(time.time())
 print()
