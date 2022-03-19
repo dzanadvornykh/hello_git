@@ -1,0 +1,4 @@
+print()
+
+def kek():
+    pass
