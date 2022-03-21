@@ -8,3 +8,12 @@ def goo():
 
 def hooch():
     pass
+
+def a():
+    pass
+
+def b():
+    pass
+
+def c():
+    pass
