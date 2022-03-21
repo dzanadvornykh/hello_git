@@ -5,3 +5,6 @@ def aarr():
 
 def goo():
     pass
+
+def hooch():
+    pass
