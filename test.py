@@ -7,6 +7,18 @@ def hello():
     print('world')
 
 
+def hi():
+    print('dimon')
+
+
+def my_func():
+    print('kek')
+
+
+def bobo():
+    print('my bobo')
+
+
 def prikol(func: Callable) -> Callable:
     print('hi')
     def inner(*args):
@@ -38,3 +50,12 @@ def also_my_function(x: str) -> str:
   
 print(time.time())
 print()
+print()
+print()
+
+class Payment:
+    pass
+
+class Sssssssss:
+    pass
+
